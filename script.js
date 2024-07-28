@@ -21,10 +21,10 @@ function checkEligibility() {
     const isEligible = eligibleUsernames.includes(username);
 
     if (isEligible) {
-        resultElement.textContent = `${username} is eligible.`;
+        resultElement.textContent = `${username} elig lu nyet.`;
         resultElement.style.color = 'green';
     } else {
-        resultElement.textContent = `${username} is not eligible.`;
+        resultElement.textContent = `${username} HAHA GA ELIG.`;
         resultElement.style.color = 'red';
     }
 }
