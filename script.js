@@ -21,7 +21,7 @@ function checkEligibility() {
     const isEligible = eligibleUsernames.includes(username);
 
     if (isEligible) {
-        resultElement.textContent = `${username} elig lu nyet.`;
+        resultElement.textContent = `${username} ELIG LU ANYING.`;
         resultElement.style.color = 'green';
     } else {
         resultElement.textContent = `${username} HAHA GA ELIG.`;
